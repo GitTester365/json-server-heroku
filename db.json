@@ -1,9 +1,8 @@
 {
-    "OptimizerOpportunity":[
+"OptimizerOpportunities":[
     {
-        "ID1":
-        {
-            "Details": 
+    "id":0,
+    "Details": 
             {
                 "Add Comments": "This is a test note #1",
                 "Last Comments": "Marc st. Aubin",
@@ -33,10 +32,11 @@
                 "Referred By": "Marc. St Aubin",
                 "Created": "July 16, 2019",
                 "Referred To": "Pranav Kulkarni"
-            }
-        },
-        "ID2":
-        {
+            },
+            "userId":"1234"
+    },
+    {
+      "id":1,
             "Details": 
             {
                 "Add Comments": "This is a test note #2",
@@ -67,16 +67,15 @@
                 "Referred By": "Jim Sommerville",
                 "Created": "July 16, 2019",
                 "Referred To": "Pranav Kulkarni"
-            }
-        }
+            },
+            "userId":"4321"
     }
-    ],
-    
-    "Opportunity":[
+ 
+  ],
+"SalesforceOpportunities":[
     {
-        "ID1":
-        {
-            "BMOFG Partner Information": 
+    "id":0,
+    "BMOFG Partner Information": 
                 {
                     "Investment Advisor": null,
                     "Private Banking": null,
@@ -101,10 +100,12 @@
                     "Created Date": "July 26, 2019",
                     "Opportunity Scrapbook": "This is a test note #6",
                     "Opportunity Edited By": "Marc st. Aubin"
-                }
-        },
-        "ID2":
-        {
+                },
+                "userId":"1234"
+
+    },
+    {
+      "id":1,
             "BMOFG Partner Information": 
                 {
                     "Investment Advisor": null,
@@ -130,8 +131,45 @@
                     "Created Date": "Aug 10, 2019",
                     "Opportunity Scrapbook": "This is a test note #7",
                     "Opportunity Edited By": "Karen Brown"
-                }
-            }
-        }
-    ]
+                },
+                "userId":"4321"
+    }
+ 
+  ],
+
+
+
+  "users":[
+    {
+      "id":4321,
+      "firstName": "Marc",
+      "lastName":"St",
+      "email":"Marc@gmail.com",
+      "departmentId":"1"
+ 
+    },
+    {
+      "id":1234,
+      "firstName": "Pranav",
+      "lastName":"K",
+      "email":"Pranav@gmail.com",
+      "departmentId":"1"
+ 
+    },
+    {
+      "id":5678,
+      "firstName": "Tom",
+      "lastName":"Baker",
+      "email":"Tom@gmail.com",
+      "departmentId":"1"
+    },
+    {
+      "id":8765,
+      "firstName": "Larry",
+      "lastName":"Stewart",
+      "email":"Larry@gmail.com",
+      "departmentId":"1"
+ 
+    }
+  ]
 }
