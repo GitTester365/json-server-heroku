@@ -1,109 +1,137 @@
 {
-"opportunities":[
+    "OptimizerOpportunity":[
     {
-    "id":0,
-    "OptName": "Investments",
-    "amount":"100k",
-    "RefferedTo":"Tom",
-    "RefferedBy":"Sam",
-    "ClientFirstName":"Tim",
-    "ClientLastName":"Collar",
-    "ClientEmail": "Tim@gmail.com",
-    "OptProgress":"25%",
-    "StartDate":"08/03/2019",
-    "EndDate":"08/15/2019",
-    "userId":"4321"
-    },
-    {
-      "id":1,
-      "OptName": "Retirement",
-      "amount":"10k",
-      "RefferedTo":"Larry",
-      "RefferedBy":"Sam",
-      "ClientFirstName":"Sara",
-      "ClientLastName":"Archer",
-      "ClientEmail": "Sara@gmail.com",
-      "OptProgress":"30%",
-      "StartDate":"08/01/2019",
-      "EndDate":"08/09/2019",
-      "userId":"4321"
-    },
-    {
-      "id":2,
-      "OptName": "Investments",
-      "amount":"100k",
-      "RefferedTo":"Larry",
-      "RefferedBy":"Tom",
-      "ClientFirstName":"Josh",
-      "ClientLastName":"Archer",
-      "ClientEmail": "Josh@gmail.com",
-      "OptProgress":"60%",
-      "StartDate":"08/21/2019",
-      "EndDate":"08/30/2019",
-      "userId":"1234"
-    },
-    {
-      "id":3,
-      "OptName": "Retirement",
-      "amount":"60k",
-      "RefferedTo":"Joe",
-      "RefferedBy":"Sam",
-      "ClientFirstName":"Adam",
-      "ClientLastName":"Smith",
-      "ClientEmail": "adam@gmail.com",
-      "OptProgress":"80%",
-      "StartDate":"08/06/2019",
-      "EndDate":"08/10/2019",
-      "userId":"1234"
-    },
-    {
-      "id":4,
-      "OptName": "Retirement",
-      "amount":"50k",
-      "RefferedTo":"Sam",
-      "RefferedBy":"Joe",
-      "ClientFirstName":"Ryan",
-      "ClientLastName":"Rose",
-      "ClientEmail": "Ryan@gmail.com",
-      "OptProgress":"20%",
-      "StartDate":"08/11/2019",
-      "EndDate":"08/21/2019",
-      "userId":"1234"
+        "ID1":
+        {
+            "Details": 
+            {
+                "Add Comments": "This is a test note #1",
+                "Last Comments": "Marc st. Aubin",
+                "Investment Advisor": "",
+                "Private Banking": "Test username",
+                "Relationship MNGT": "",
+                "Contact Phone": "111-111-1111",
+                "Email": "test@gmail.com",
+                "Street Number": "125",
+                "Street Name": "King Street West, Toronto",
+                "Opportunity": "FR Investments/Placements",
+                "Legal Name": "XYZ Inc.",
+                "First Name": "Jane",
+                "Last Name": "Doe",
+                "Deal Team": "TEAM1",
+                "Opportunity Number": "1-1H28Q6Z"
+            },
+            "Pipeline Information": 
+            {
+                "Sales Stage": "Deal Closing",
+                "Sale Amount": "200k",
+                "Expected Close": "July 26, 2019",
+                "Percentage": "60%"
+            },
+            "Source Information": 
+            {
+                "Referred By": "Marc. St Aubin",
+                "Created": "July 16, 2019",
+                "Referred To": "Pranav Kulkarni"
+            }
+        },
+        "ID2":
+        {
+            "Details": 
+            {
+                "Add Comments": "This is a test note #2",
+                "Last Comments": "Jim Sommerville",
+                "Investment Advisor": "",
+                "Private Banking": "Test username",
+                "Relationship MNGT": "",
+                "Contact Phone": "222-222-2222",
+                "Email": "test2@gmail.com",
+                "Street Number": "225",
+                "Street Name": "Yonge Street, Toronto",
+                "Opportunity": "Investments/Placements",
+                "Legal Name": "ACME Inc.",
+                "First Name": "John",
+                "Last Name": "Smith",
+                "Deal Team": "TEAM2",
+                "Opportunity Number": "2-2H28Q6Z"
+            },
+            "Pipeline Information": 
+            {
+                "Sales Stage": "Pending",
+                "Sale Amount": "40k",
+                "Expected Close": "July 26, 2019",
+                "Percentage": "60%"
+            },
+            "Source Information": 
+            {
+                "Referred By": "Jim Sommerville",
+                "Created": "July 16, 2019",
+                "Referred To": "Pranav Kulkarni"
+            }
+        }
     }
- 
- 
-  ],
-  "users":[
+    ],
+    
+    "Opportunity":[
     {
-      "id":4321,
-      "firstName": "Joe",
-      "lastName":"Doe",
-      "email":"Joe@gmail.com",
-      "departmentId":"1"
- 
-    },
-    {
-      "id":1234,
-      "firstName": "Sam",
-      "lastName":"Fisher",
-      "email":"Sam@gmail.com",
-      "departmentId":"1"
- 
-    },
-    {
-      "id":5678,
-      "firstName": "Tom",
-      "lastName":"Baker",
-      "email":"Tom@gmail.com",
-      "departmentId":"1"
-    },
-    {
-      "id":8765,
-      "firstName": "Larry",
-      "lastName":"Stewart",
-      "email":"Larry@gmail.com",
-      "departmentId":"1"
- 
-    }
-  ]
+        "ID1":
+        {
+            "BMOFG Partner Information": 
+                {
+                    "Investment Advisor": null,
+                    "Private Banking": null,
+                    "Relationship MNGT": null,
+                    "Name": "Dave Scott",
+                    "Client Phone": "666-666-6666",
+                    "Email": "Dave.Scott@gmail.com",
+                    "Client Address": "120 King st. Toronto, ON",
+                    "Business Name": "Private Banking",
+                    "Deal Team": null,
+                    "Opportunity Number": "6-6H28Q6Z",
+                    "Referred To": "Pranav Kulkarni",
+                    "Referring Employees Name (Not on SFDC)": "Marc st. Aubin"
+                },
+            "Opportunity Information": 
+                {
+                    "Incremental New Assets": "$300k",
+                    "Opportunity Name": "Retirement/Plan/Retraite",
+                    "Stage": "Open",
+                    "Close Date": "Aug 16, 2019",
+                    "Percentage": "60%",
+                    "Created Date": "July 26, 2019",
+                    "Opportunity Scrapbook": "This is a test note #6",
+                    "Opportunity Edited By": "Marc st. Aubin"
+                }
+        },
+        "ID2":
+        {
+            "BMOFG Partner Information": 
+                {
+                    "Investment Advisor": null,
+                    "Private Banking": null,
+                    "Relationship MNGT": null,
+                    "Name": "Jason Smith",
+                    "Client Phone": "777-777-7777",
+                    "Email": "Dave.Scott@gmail.com",
+                    "Client Address": "50 Toronto Street, Toronto, ON",
+                    "Business Name": "Private Banking",
+                    "Deal Team": null,
+                    "Opportunity Number": "7-7H28Q6Z",
+                    "Referred To": "Pranav Kulkarni",
+                    "Referring Employees Name (Not on SFDC)": "Karen Brown"
+                },
+            "Opportunity Information": 
+                {
+                    "Incremental New Assets": "$10k",
+                    "Opportunity Name": "FR Investments/Placements",
+                    "Stage": "In Progress",
+                    "Close Date": "Sep 10, 2019",
+                    "Percentage": "40%",
+                    "Created Date": "Aug 10, 2019",
+                    "Opportunity Scrapbook": "This is a test note #7",
+                    "Opportunity Edited By": "Karen Brown"
+                }
+            }
+        }
+    ]
 }
