@@ -51,7 +51,7 @@
       "ClientFirstName":"Adam",
       "ClientLastName":"Smith",
       "ClientEmail": "adam@gmail.com",
-      "OptProgress":"80%",
+"      "OptProgress":"80%",
       "StartDate":"08/06/2019",
       "EndDate":"08/10/2019",
       "userId":"1234"
@@ -86,7 +86,7 @@
       "id":1234,
       "firstName": "Sam",
       "lastName":"Fisher",
-      "email":"Sam@gmail.com,
+      "email":"Sam@gmail.com",
       "departmentId":"1"
  
     },
