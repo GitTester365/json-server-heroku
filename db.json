@@ -78,7 +78,7 @@
       "id":4321,
       "firstName": "Joe",
       "lastName":"Doe",
-      "email":"Joe@bmo.com",
+      "email":"Joe@gmail.com",
       "departmentId":"1"
  
     },
@@ -86,7 +86,7 @@
       "id":1234,
       "firstName": "Sam",
       "lastName":"Fisher",
-      "email":"Sam@bmo.com",
+      "email":"Sam@gmail.com,
       "departmentId":"1"
  
     },
@@ -101,7 +101,7 @@
       "id":8765,
       "firstName": "Larry",
       "lastName":"Stewart",
-      "email":"Larry@bmo.com",
+      "email":"Larry@bgmail.com",
       "departmentId":"1"
  
     }
