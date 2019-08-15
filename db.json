@@ -94,14 +94,14 @@
       "id":5678,
       "firstName": "Tom",
       "lastName":"Baker",
-      "email":"Tom@bmo.com",
+      "email":"Tom@gmail.com",
       "departmentId":"1"
     },
     {
       "id":8765,
       "firstName": "Larry",
       "lastName":"Stewart",
-      "email":"Larry@bgmail.com",
+      "email":"Larry@gmail.com",
       "departmentId":"1"
  
     }
