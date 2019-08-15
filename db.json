@@ -40,7 +40,7 @@
       "OptProgress":"60%",
       "StartDate":"08/21/2019",
       "EndDate":"08/30/2019",
-      "userId":"1234",
+      "userId":"1234"
     },
     {
       "id":3,
@@ -54,7 +54,7 @@
       "OptProgress":"80%",
       "StartDate":"08/06/2019",
       "EndDate":"08/10/2019",
-      "userId":"1234",
+      "userId":"1234"
     },
     {
       "id":4,
@@ -68,7 +68,7 @@
       "OptProgress":"20%",
       "StartDate":"08/11/2019",
       "EndDate":"08/21/2019",
-      "userId":"1234",
+      "userId":"1234"
     }
  
  
